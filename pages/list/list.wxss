@@ -1,5 +1,3 @@
-/* pages/list/list.wxss */
-
 page {
     display: flex;
     flex-direction: column;
