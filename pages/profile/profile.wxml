@@ -1,3 +1,11 @@
-<view>
-    <text>个人信息页</text>
+<view class="container">
+    <view class="header">
+        <text class="title">关于我</text>
+    </view>
+    <view class="user" bindtap="getUserInfo">
+        <image class="user-avatar" src="../../images/avatar.jpg" mode="aspectFit" />
+        <text class="user-nickname">脚踏实地</text>
+        <text>ShenZhen, China</text>
+        <text>学习小程序开发中</text>
+    </view>
 </view>

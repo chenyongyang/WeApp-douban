@@ -275,7 +275,7 @@
             </view>
         </view>
         <view class="item">
-            <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2382541980.jpg" />
+            <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2382541980.jpg" />
             <view class="meta">
                 <text class="title">我是哪吒</text>
                 <text class="sub-title">我是哪吒 (2016)</text>
