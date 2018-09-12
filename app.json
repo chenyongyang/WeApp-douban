@@ -1,7 +1,10 @@
 {
     "pages": [
         "pages/board/board",
-        "pages/search/search"
+        "pages/search/search",
+        "pages/profile/profile",
+        "pages/item/item",
+        "pages/list/list"
     ],
     "window": {
         "navigationBarBackgroundColor": "#f0f0f0",
@@ -24,6 +27,12 @@
                 "pagePath": "pages/search/search",
                 "iconPath": "images/search.png",
                 "selectedIconPath": "images/search-actived.png"
+            },
+            {
+                "text": "我",
+                "pagePath": "pages/profile/profile",
+                "iconPath": "images/profile.png",
+                "selectedIconPath": "images/profile-actived.png"
             }
         ]
     }
