@@ -7,10 +7,10 @@ Page({
      * 页面的初始数据
      */
     data: {
-        title: 'About',
+        title: '关于我',
         userInfo: {
             nickName: 'https://github.com/chenyongyang',
-            avatarUrl: '../../images/avatar.png'
+            avatarUrl: '../../images/avatar.jpg'
         }
     },
 

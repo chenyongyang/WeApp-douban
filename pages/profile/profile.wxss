@@ -18,8 +18,8 @@
 }
 
 .user-avatar {
-    width: 100%;
-    height: 620rpx;
+    width: 80%;
+    /* height: 620rpx; */
     margin: 40rpx;
 }
 
