@@ -1,2 +1,2 @@
-# WeApp-learn
-:memo:微信小程序开发学习笔记
+# WeApp-douban
+:tada: 一款模仿豆瓣的微信小程序，纯学习项目
