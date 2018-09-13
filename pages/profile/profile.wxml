@@ -1,11 +1,11 @@
 <view class="container">
     <view class="header">
-        <text class="title">关于我</text>
+        <text class="title">{{ title }}</text>
     </view>
     <view class="user" bindtap="getUserInfo">
-        <image class="user-avatar" src="../../images/avatar.jpg" mode="aspectFit" />
-        <text class="user-nickname">脚踏实地</text>
-        <text>ShenZhen, China</text>
-        <text>学习小程序开发中</text>
+        <image class="user-avatar" src="{{ userInfo.avatarUrl }}" mode="aspectFit" />
+        <text class="user-nickname">{{ userInfo.nickName }}</text>
+        <text hidden="{{ !userInfo.city }}">{{ userInfo.city }}, {{ userInfo.province }}</text>
+        <text hidden="{{ !userInfo.city }}">谢谢关注！</text>
     </view>
 </view>
